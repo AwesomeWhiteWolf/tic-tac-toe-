@@ -1,6 +1,5 @@
 
 *{
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
     font-family: 'Roboto Condensed', sans-serif;
     padding: 0;
     margin: 0;
@@ -8,21 +7,17 @@
     background-color: #618264;
 }
 
-:root {
-    --orange: #79AC78;
-}
 
 body {
-    color: var(--orange);
+    color: #79AC78;
 }
 h1 {
-    font-size: 54px;
+    font-size: 2.8em;
     text-transform: uppercase;
-    color: var(--orange);
+    color: #79AC78;
 }
 
 .container {
-    padding: 40px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -32,18 +27,20 @@ h1 {
 }
 
 #gameboard {
-    width: 400px;
+    width: 380px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
+    align-items: center;
+    justify-content: center;
 }
 .box {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--orange);
+    color: #79AC78;
     font-size: 100px;
     border-right: 2px solid;
     border-bottom: 2px solid;
@@ -55,21 +52,17 @@ h1 {
     border-bottom: none;
 } 
 button, #restartBtn {
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 10px 20px;
     border-radius: 15px;
-    background-color: var(--orange);
+    background-color: #79AC78;
     color: #B0D9B1;
     border-color:  #D0E7D2;
-    font-size: 18px;
+    font-size: 1em;
     transition: 200ms transform;
     font-weight: 600;
 }
-button:hover {
+button:hover, #restartBtn:hover {
     cursor: pointer;
     transform: translateY(-2px);
-}
-
-.modes{
-    margin-top: 20px;
 }
