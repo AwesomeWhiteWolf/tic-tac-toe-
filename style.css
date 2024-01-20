@@ -64,7 +64,7 @@ button, #restartBtn {
     transition: 200ms transform;
     font-weight: 600;
 }
-button:hover {
+button:hover, #restartBtn:hover {
     cursor: pointer;
     transform: translateY(-2px);
 }
